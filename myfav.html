@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Мій улюблений фільм Зоряні Війни</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://fonoteka.top/uploads/posts/2021-05/1620154726_29-phonoteka_org-p-zadnii-fon-zvezdnie-voini-36.jpg') center/cover no-repeat fixed;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  main {
+      text-align: center;
+  }
+  section {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  button {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #home {
+    margin-top: -50px;
+  }
+  #actors{
+    margin-top: -50px;
+  }
+  #plot{
+    margin-top: -50px;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  
+}
+.slide {
+  min-width: 100%;
+}
+.slider img {
+  width: 500px;
+  height: 350px;
+  border-radius: 8px;
+}
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ae8c64;
+  margin: 0 5px;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мій улюблений фільм Зоряні Війни</h1>
+  </header>
+  <main>
+    <section id="home">
+      <button onclick="showPage('home')">Головна</button>
+      <button onclick="showPage('actors')">Актори</button>
+      <button onclick="showPage('plot')">Сюжет</button>
+      <h2>Загальна інформація</h2>
+      <p>Зоряні війни - це науково-фантастичний кінофраншиза, створена Джорджем Лукасом. Франшиза включає в себе дев'ять повнометражних фільмів, телевізійні шоу, книги, комікси та відеоігри.</p>
+      <p>Перший фільм франшизи, "Зоряні війни: Епізод IV - Нова надія", вийшов у 1977 році. Фільм розповідає історію Люка Скайвокера, молодого фермера, який приєднується до Повстанського Альянсу в боротьбі проти Галактичної Імперії.</p>
+      <p>Зоряні війни стали одними з найпопулярніших і впливових фільмів всіх часів. Вони виграли сім премій "Оскар", включаючи "Найкращий фільм" за "Нову надію".</p>
+      <img src="https://eneyida.tv/uploads/posts/2019-12/1575286409_1.jpg" alt="Зоряні війни: Епізод IV - Нова надія">
+      <h2>Чому я обожнюю цей фільм</h2>
+      <p>Я обожнюю фільм Зоряні війни, тому що він захоплюючий, веселий і повний пригод. Я люблю історію Люка Скайвокера, його подорож від фермера до джедая. Я також люблю персонажів фільму, таких як Хан Соло, Лея Органа і Обі-Ван Кенобі.</p>
+      <p>Я також люблю світ Зоряних війн. Він такий яскравий і різноманітний, з планетами, такими як Татуїн, Хот і Набу. Я люблю технології Зоряних війн, такі як винищувачі X-wing і космічні кораблі Millennium Falcon.</p>
+      <img src="https://static.wikia.nocookie.net/starwarsua/images/2/22/RedFive_X-wing_SWB.png/revision/latest?cb=20180731075845&path-prefix=uk" alt="Винищувач X-wing">
+    </section>
+    <section id="actors" style="display: none;">
+    <button onclick="showPage('home')">Головна</button>
+      <button onclick="showPage('actors')">Актори</button>
+      <button onclick="showPage('plot')">Сюжет</button>
+      <h2>Головні актори фільму</h2>
+      <ul>
+        <li>Люк Скайвокер - Марк Хеміл</li>
+        <li>Хан Соло - Харрісон Форд</li>
+        <li>Лея Органа - Керрі Фішер</ли>
+        <li>Обі-Ван Кенобі - Алан Тук</li>
+        <li>Дарт Вейдер - Девід Проуз</li>
+      </ul>
+      <div class="slider-container"> 
+        <p class="best-photos-of-the-week">
+        </p>
+        <div class="slider"> 
+          <div class="slide"> 
+            <img src="https://tengrinews.kz/userdata/news/2020/news_393604/thumb_m/photo_310825.jpeg" alt="Фото 1">
+          </div>
+          <div class="slide">
+            <img src="https://cdn-media.tass.ru/width/1020_b9261fa1/tass/m2/uploads/i/20170714/4528368.jpg" alt="Фото 2">
+          </div>
+          <div class="slide">
+            <img src="https://static.wikia.nocookie.net/disney/images/b/b3/Carrie_fisher_01.jpg/revision/latest?cb=20170711071851&path-prefix=ru" alt="Фото 3">
+          </div>
+          <div class="slide">
+            <img src="https://pm1.aminoapps.com/7659/2635456af628c61f2847eef4cfdf9fc69c5fc2b6r1-1600-1202v2_00.jpg" alt="Фото 4">
+          </div>
+          <div class="slide">
+            <img src="https://rusmonitor.com/wp-content/uploads/2020/11/5674567567.jpg" alt="Фото 5">
+          </div>
+        </div>
+        <div class="dots"></div>
+    </section>
+    <section id="plot" style="display: none;">
+      <button onclick="showPage('home')">Головна</button>
+      <button onclick="showPage('actors')">Актори</button>
+      <button onclick="showPage('plot')">Сюжет</button> 
+      <h2>Сюжет</h2>
+      <p>У «Далекій галактиці» триває велике протистояння Галактичної імперії та Альянсу повстанців. Лідер повстанців, принцеса Лея Органа, викрадає креслення «Зірки смерті», величезної космічної станції, що здатна знищувати цілі планети. Її корабель захоплює імперський крейсер і починає абордаж. Лея ховає креслення в дроїді R2-D2 і таємно скидає в космос на рятувальній капсулі разом з дроїдом-перекладачем C-3PO. Воєначальник Дарт Вейдер обшукує корабель в пошуках креслень, а його війська полонять принцесу. Вейдер розуміє, що креслення були в капсулі, та організовує погоню.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/uk/3/37/R2-D2_%26_C-3PO_%28Star_Wars%29.jpg" alt="Дроїди">
+      <p> Дроїди потрапляють на пустельну планету Татуїн, де опиняються в руках збирачів брухту джавів. Ті продають їх місцевому фермеру Оуену Ларсу і його небожу Люку Скайвокеру. Коли Люк чистить R2-D2, той несподівано показує частину голографічного повідомлення Леї, адресоване Обі-Вану Кенобі. Але Люк знає лише одну людину з прізвищем Кенобі, відлюдника Бена. Про це він питає в дядька, на що той відповідає, що Обі-Ван вже помер. У цей час R2-D2 тікає на пошуки Обі-Вана. Люк та C-3PO вирушають за ним.</p>
+      <img src="https://static.wikia.nocookie.net/rustarwars/images/7/7e/Tatooine_EotECR.png/revision/latest?cb=20180110135447" alt="Татуїн">
+      <p> Люк і дроїди потрапляють в засідку бандитів, але на допомогу приходить шуканий відлюдник. Той виявляється колишнім джедаєм, розповідає Люку про містичну Силу, що поєднує все живе, і віддає йому світловий меч батька, пілота Енакіна Скайвокера. Обі-Ван каже, що Енакін був його учнем, доки не був убитий іншим учнем, Дартом Вейдером. Бен переглядає послання Леї, де вона просить його відвезти креслення «Зірки Смерті» на Альдераан до її батька, який може проаналізувати їх і знайти слабкі місця. Обі-Ван просить Люка полетіти з ним, але той відмовляється, адже має на Татуїні повно роботи. Повернувшись додому, він знаходить усе спаленим, а родичів убитими імперськими штурмовиками, які шукали дроїдів. Тим часом вищі військові чини імперії обговорюють підтримання сенатом повстанців, проти яких небезпечно воювати. Прибуває Дарт Вейдер і гранд-мофф Таркін, котрі повідомляють, що імператор розпустив сенат. Віднині порядок забезпечуватиметься страхом перед «Зіркою смерті».</p>
+      <img src="https://api.chas.news/img-srv/image/width=630,quality=85/media-storage/05_2022/Estrella-de-la-muerte-Star-Wars.jpg" alt="Зірка смерті">
+      <p> Люк повертається до Обі-Вана та висловлює бажання стати джедаєм, як батько. Обі-Ван завдяки здатності джедаїв підкоряти слабкі розуми, проводить Люка і дроїдів повз охорону. Вони наймають контрабандиста Гана Соло, який заборгував Джаббі Хатту, і має найшвидший, хоч і старенький, у галактиці корабель «Тисячолітній сокіл». З космопорту вони тікають від імперських військ, взявши в компанію вукі Чубакку, і прямують на Альдераан.
+        Лея ув'язнена на «Зірці смерті», але навіть під зондуванням розуму не видає місця розташування бази повстанців. Тому Таркін погрожує знищити мирну планету Альдераан, якщо принцеса не скаже де база. Лея розповідає, що це на Дантуїні, однак база виявляється покинутою. Таркін все одно наказує зруйнувати планету і стратити Лею. Обі-Ван відчуває це та навчає Люка використовувати Силу.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Star_Wars_Identities_%288348847356%29.jpg/420px-Star_Wars_Identities_%288348847356%29.jpg" alt="Дроїди">
+      <p> Скоро «Тисячолітній сокіл» потрапляє в астероїдне поле на місці, де мала бути планета Альдераан. Тут вони зустрічають імперський винищувач і переслідують його до астероїда, яким насправді є «Зірка смерті». Станція захоплює корабель тяговим променем і змушує сісти в ангарі, де його починають обшукувати. Проте всі, хто на ньому був, ховаються у вантажному відділі для контрабанди. Згодом їм вдається залишити корабель, переодягтися штурмовиками й захопити рубку, де R2-D2 виявляє місцезнаходження Леї. Ган, Люк і Чубакка йдуть її рятувати. Обі-Ван прямує до генератора тягового променя станції, щоб його знешкодити, а дроїди залишаються в рубці. Люку і контрабандистам вдається звільнити Лею, але доводиться сховатися в сміттєвому пресі. R2-D2 відмикає прес і герої повертаються на корабель разом з дроїдами. Обі-Ван знешкоджує промінь, але зустрічає Дарта Вейдера і починає битися з ним на світлових мечах. Він дає шанс друзям утекти, дозволяючи Дарту Вейдеру вбити себе. «Тисячолітній сокіл» з рештою героїв встигає відлетіти. Ті не знають, що на корабель встановлено маячок, за яким летить «Зірка смерті».</p>
+      <img src="https://i.ytimg.com/vi/jCRWrIYvDQ4/sddefault.jpg" alt="Обі">
+      <p> На супутнику Явіна IV повстанці аналізують креслення і знаходять місце, при точному пострілі у яке «Зірка смерті» буде знищена. Люк зустрічає тут старого друга, разом з яким приєднується до пілотів. Ган Соло не наважується бути з ними й летить геть. Кораблі Альянсу прямують до «Зірки Смерті» і починають атаку. На їх перехоплення вирушає сам Дарт Вейдер, але несподівано на допомогу приходить Ган Соло на своєму кораблі. Голос духа Сили Обі-Вана підказує Люку, що він має використати Силу для того, щоб влучити. Люк сконцентровується і влучає точно в охолоджувальну шахту, яка веде до реактора. «Зірка смерті» через це вибухає, головна загроза Альянсу повстанців усунена. Однак, після цієї атаки повстанців Вейдер вцілів. Пізніше відбувається церемонія нагородження Люка і Гана за хоробрість під час бою.</p>
+    </section>
+  </main>
+  
+  <script>
+  function showPage(pageId) {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('actors').style.display = 'none';
+    document.getElementById('plot').style.display = 'none';
+    document.getElementById(pageId).style.display = 'block';
+  }
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const dotsContainer = document.querySelector('.dots');
+
+  slides.forEach((_, index) => {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    dot.addEventListener('click', () => showSlide(index));
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = document.querySelectorAll('.dot');
+
+  function showSlide(slideIndex) {
+    slides.forEach((slide, index) => {
+      slide.style.display = index === slideIndex ? 'block' : 'none';
+      dots[index].classList.toggle('active', index === slideIndex);
+    });
+  }
+
+  showSlide(currentSlide);
+  setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }, 3000);
+  
+  </script>
+</body>
+</html>
